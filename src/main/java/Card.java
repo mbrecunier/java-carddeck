@@ -16,6 +16,6 @@ public class Card {
   }
 
   public String name() {
-    return mValue + " of " + mSuit;
+    return String.format("%s of %s", mValue, mSuit);
   }
 }
